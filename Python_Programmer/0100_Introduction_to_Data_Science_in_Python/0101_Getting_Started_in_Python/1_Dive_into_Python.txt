@@ -1,0 +1,29 @@
+Video
+
+Video Transcript:
+
+Welcome to this course where you will begin your journey through data science! My name is Hillary Green-Lerman, and I'll be your guide to the wonderful world of Python. The purpose of this course is to gently introduce you to programming and data science by playing with some simple datasets. This course is intended for learners with no coding experience. I'll aim to answer all of your questions as we move through the course.
+
+2. What you'll learn
+In this course, you'll learn: how to write and execute Python code with DataCamp, load data from a spreadsheet file into Python, and turn that loaded data into beautiful plots. By the end of this course, you'll be familiar with Python syntax and ready to learn more.
+
+3. Solving a mystery with data
+While we learn, we'll be solving a mystery using data. Someone has kidnapped Bayes, DataCamp's prize-winning Golden Retriever. The kidnapper has left clues that we can analyze. We'll use techniques like chemical analysis and letter frequency to pick the correct suspect.
+
+4. Using the IPython shell
+Before we can solve our mystery, we need to get familiar with how code is written. There are two ways of executing code on DataCamp. The first is the IPython Shell, located in the bottom-right of each exercise. In the Python Shell (which is sometimes called "the console"), we can type a single line of code use the "Return" key to execute that line. This is a good place for experimenting with new ideas.
+
+5. Using the script editor
+The second place we can enter code is the script editor, located in the top-right of each exercise. The script editor lets us write multiple lines of code, as well as comments, which are lines beginning with a "pound" or "hash" symbol. When we are ready to execute all of the code in the script editor, we can click "Run Code". When we think our code is correct, we can click "Submit Answer".
+
+6. What is a module?
+Now that we know where to write code, let's dive into our first concept: modules. Modules help group together related tools in Python. For example, we might want to group together all of the tools that make different types of charts: bar charts, line charts, and histograms. Some common examples of modules are matplotlib (which creates charts), pandas (which loads tabular data), scikit-learn (which performs machine learning), scipy (which contains statistics functions), and nltk (which works with text data).
+
+7. Importing pandas and matplotlib
+We must import any modules that we plan on using before we can write any other code. We do this at the top of the script editor. If we don't import modules, we can't use the tools that they contain. In this example, by importing the modules pandas and matplotlib, we're able to unbox the tools necessary to create a graph. In this case, pandas gives us the tools to read data from a file, and matplotlib gives us the tools to plot the data.
+
+8. Importing a module
+To import a module, simply type "import" followed by a space and then the module name. Oftentimes, module names are long, so we can shorten them by using an alias. To give your module an alias, just add "as" and a shorter name to your original import statement. This statement will alias "pandas" as "pd".
+
+9. Let's practice!
+Let's practice what we've learned using the console and script editor!

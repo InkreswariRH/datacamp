@@ -1,0 +1,29 @@
+Video
+
+Video Transcript
+
+Welcome back. Now that we know how to select columns of a DataFrame, let's learn how to select specific rows.
+
+2. Continuing the investigation
+We've collected credit card statements from all of our suspects into a DataFrame called "credit_records". If we can prove that some of these suspects made suspicious purchases, we can ask them for writing samples and match those samples to the ransom note found at the scene of the crime. In order to search for the suspicious purchases, we'll need to select rows from the DataFrame using logical statements.
+
+3. Logical statements in Python
+In Python, a logical statement checks for a relationship between two values (such as "equal to" or "greater than"), and returns True or False. For example, suppose we want to know if 12 times 8 is equal to 96. We can compare the variables "question" and "solution" using a double equals sign. This tests whether the two numbers are the same. In this case, Python returns "True" because 12 times 8 is equal to 96. That "True" that Python returns is a special data type called a "Boolean". There are only two Booleans: True and False. Recall that you've already learned three other data types: floats, strings, and DataFrames. We'll be using Booleans to select rows where the value of a column matches a specific value.
+
+4. Other types of logic
+We can make many types of comparisons in Python, such as greater than, greater than or equal to, less than, and less than or equal to. In this example, we ask if the variable "price" is greater than 5. Python returns False because 2-point-25 is not greater than 5. We can also check if two variables are not equal to each other. We do this using exclamation point followed by an equals sign. In this example, we see that lowercase "bayes" is not the same as title-case "Bayes".
+
+5. Using logic with DataFrames
+In the previous examples, we were just comparing two values. In a DataFrame we can compare one value to all values in a DataFrame. For example, we can compare if each purchase in our credit cared records had a price that was greater than $20. This returns an entire column of True or False.
+
+6. Using logic with DataFrames
+If we put that truth testing statement inside of brackets, we can select only the rows where the statement is True. Here, we select rows of credit_records where the price is greater than 20 dollars.
+
+7. Using logic with DataFrames
+Let's examine this line of code more closely. We start with the name of the DataFrame we want to select rows from. In this case, "credit_records". Next we have a set of square brackets. Inside of the square brackets we put our logical test. In this case, the logical test is whether the "price" column of "credit records" is greater than $20. This statement will select all rows of credit_records where the column price is greater than $20.
+
+8. Using logic with DataFrames
+Let's try another example. Suppose, we want to select all rows of credit_records where the "suspect" is equal to "Ronald Aylmer Fisher". Again, we have the name of the DataFrame, followed by square brackets. Inside of the brackets, we check if credit_records-dot-suspect is equal to "Ronald Aylmer Fisher". Note that we use the double equals sign to test equality.
+
+9. Let's practice!
+Great job! Let's practice.

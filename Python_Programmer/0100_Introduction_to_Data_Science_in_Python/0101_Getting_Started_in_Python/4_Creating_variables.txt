@@ -1,0 +1,26 @@
+Video
+
+Video Transcript
+
+Previously, you started writing Python code in the script editor and the console. You learned what a module is, and how to import it. You also learned to simplify module names using an alias. In this lesson, you'll learn about variables, which help us reference a piece of data for later use.
+
+2. Filing a missing puppy report
+In the previous lesson, we told you about our kidnapped Golden Retriever, Bayes. To solve the mystery, let's start by filling out a Missing Puppy Report. In order to file the report, we'll need to record some information about Bayes, such as his height and weight. In Python, we will represent each line from the missing puppy report with a variable. A variable gives us an easy-to-use shortcut to a piece of data. Whenever we use the variable name in our code, it will be replaced with the original piece of data. In this case, one of our variables is "name" and its value is "Bayes". Another variable is "height" and its value is "24". We define variables using an equals sign.
+
+3. Rules for variable names
+When defining variables, we need to follow a few rules. Variables must start with a letter. You can use a capital letter, but we usually use lowercase. After the first letter, we can use letters, numbers, and underscores in our variable name. We can't use special characters like exclamation points or dashes. Variable names are case sensitive, so these two different ways of typing "my_var" would be different variables. On the left are some examples of valid variable names, and on the right are some examples of invalid variable names.
+
+4. Error messages
+Let's see what happens when we try to use an invalid variable name. The variable bayes-height is invalid because of the hyphen. When we try to enter it, we will receive a SyntaxError. Above the Syntax Error, we see the line of code that caused the problem and a caret that indicates approximately where the problem occurred.
+
+5. Floats and strings
+Variables come in many "flavors". Two important flavors are floats and strings. Floats represent either integers or decimals. Strings represent text and can contain letters, numbers, spaces, and special characters. We define a string by putting either single or double quotes around a piece of text.
+
+6. Common string mistakes
+It's easy to get errors when working with strings. If you get one, there are two likely causes. You might have forgotten to put quotation marks around your string. If you do this, Python will think that your string is a variable, and if that variable wasn't previously defined, you'll get a "name error". Alternatively, you might have started your string with one type of quote and finished with a different type. If you mix single and double quotes, you'll get a syntax error.
+
+7. Displaying variables
+If we want to know the current value of one of our variables, we can use "print". We simply type the word "print" and put our variable name inside of the parentheses. When we execute the code, the value will appear in the console. Remember: the variable name is not a string, so we don't put it in quotes.
+
+8. Let's practice!
+Now that you know how to define and display variables, let's practice!

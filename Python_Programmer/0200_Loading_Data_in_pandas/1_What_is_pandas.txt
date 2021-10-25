@@ -1,0 +1,31 @@
+Video
+
+Video Transcript
+In the previous chapter, you learned about basic Python, including defining variables and loading modules. One of the modules that you loaded was called pandas. Pandas is a module for working with tabular data, or data that has rows and columns. Common examples of tabular data are spreadsheets or database tables. In this chapter, you'll learn the basics of Pandas, including how to load and inspect data.
+
+2. What can pandas do for you?
+Pandas gives you many tools for working with tabular data. You can load tabular data from multiple sources (like spreadsheets or databases), search for particular rows or columns in your loaded data, calculate aggregate statistics (like averages or standard deviations), and combine data from multiple sources.
+
+3. Tabular data with pandas
+You already know two data types: floats and strings. Pandas introduces a new, more powerful data type: the DataFrame, which represents tabular data. Loading data into a DataFrame is the first step in using Pandas.
+
+4. CSV files
+One of the easiest ways to create a DataFrame is by using a CSV file. CSV stands for comma-separated values, and is a common way of storing tabular data as a text-only file. You can download a CSV version of data from an Excel spreadsheet, a SQL database, or a Google Sheet.
+
+5. Loading a CSV
+Before we can start using Pandas, we have to import the pandas module. Recall that we always import Pandas under the alias "pd". Next, we create our first DataFrame from a CSV. Turning a CSV into a DataFrame is easy. We use a function: pd-dot-read_csv. This function takes one argument, the name of a CSV file as a string. In this example, the name of the file is ransom-dot-csv.
+
+6. Displaying a DataFrame
+Notice that we saved this DataFrame to a variable called "df". We can display this variable by using the "print" function, which we learned about in a previous lesson. When we print a DataFrame, we get to see every row in the DataFrame. In this example, the DataFrame is so large that it doesn't entirely fit on the slide!
+
+7. Inspecting a DataFrame
+Usually, we don't want to print an entire DataFrame to inspect it; we just want to view the first few lines. We can do this by using head. head behaves slightly differently than the functions we've learned about previously. Rather than coming at the beginning of a line of code, this function "belongs" to the DataFrame variable and comes at the end of the line, after a period. We call this type of function a "method". The .head method just selects the first five rows of "df". In order to display then, we need to put df-dot-head inside of the print function. Printing the first few lines of a DataFrame using .head is much easier to read than printing the entire DataFrame.
+
+8. Inspecting a DataFrame
+Another way of learning about a DataFrame is using the info method. Like head, we type the variable name of the DataFrame (in this case "df"), followed by a period, and then followed by our method dot-info. Again, in order to display the output, we put the whole statement inside of a print function. Let's take a closer look at the output of info.
+
+9. Inspecting a DataFrame
+Notice that we can see the names of the columns, the number of rows, and data types for each column. This method is particularly useful for DataFrames with many columns that are difficult to display using head.
+
+10. Let's practice!
+Now that you know what a DataFrame is, how to load data with a CSV, and how to inspect a DataFrame, let's continue to solve the mystery of Bayes' kidnapping.

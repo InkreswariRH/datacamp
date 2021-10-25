@@ -1,0 +1,29 @@
+Video
+
+Video Transcript
+
+Previously, we learned about variables (which allow us to store information for later use), strings (which represent text), and floats (which represent numbers). Now that we know the basic data types in Python, we'll start using them with functions.
+
+2. A function is an action
+A function is an action. It turns one or more inputs into an output. In this example, the function is called "turn_orange". The input is a shape (such as a blue square) and the "action" is to color the input shape orange.
+
+3. Functions in code
+Consider the following code snippet. In a previous lesson, we learned that this code would read some data and produce a graph. In this snippet there are three functions: pd-dot-read_csv turns a csv file into a table in Python, plt-dot-plot turns data into a line plot, and plt-dot-show displays the plot in a new window. Let's learn about functions by examining one from our code snippets.
+
+4. Anatomy of a function
+This function takes the data from the table in the bottom-left and plots letter_index on the x-axis and frequency on the y-axis, resulting in the graph on the bottom-right.
+
+5. Anatomy of a function: function name
+First, let’s look at the function name. The function name has two parts: the first tells us what module the function comes from. In this case, it's from plt, which was the alias we used when we imported matplotlib. The second part (which comes after the period) is the name of the function: plot. After the name of the function, comes a set of parentheses. The inputs to the function will all come inside of these parentheses.
+
+6. Anatomy of a function: positional arguments
+Positional arguments are one type of input that a function can have. Positional arguments must come in a specific order. In this case, the first argument is the x-value of each point, and the second argument is the y-value of each point. Each argument is separated by a comma. If you forget the comma, you will get a syntax error. It's good practice to put a space after the comma, but your code will run even if you forget that space. Keyword arguments come after
+
+7. Anatomy of a function: keyword arguments
+positional arguments, but if there are multiple keyword arguments, they can come in any order. In this case, the keyword argument is called "label". After the equals sign, we've put the actual input to the function, which is "Ransom". Eventually, this argument will let us create a legend for our graph. Before you start practicing, let's discuss
+
+8. Common function errors
+two common errors for functions: If you get a syntax error, you might be missing commas between each argument. Both positional and keyword arguments need to be separated by commas. Alternatively, you might be missing a parenthesis at the end of your function. While you write code, syntax highlighting in the script editor will help remind you to close your parentheses.
+
+9. Let's practice!
+Let's practice what you've learned by making a few graphs!

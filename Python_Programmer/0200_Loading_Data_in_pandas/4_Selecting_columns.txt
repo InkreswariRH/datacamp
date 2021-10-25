@@ -1,0 +1,29 @@
+Video
+
+Video Transcript
+
+Now that we've loaded data from a CSV into a DataFrame, we're going to want to access that data. The first way we'll use that data is by selecting columns. This means we'll be getting all values from a particular column in a DataFrame. In this lesson, we'll continue working with the credit card reports for our suspects in the kidnapping of Bayes, the Golden Retriever, as well as a few other pieces of evidence from the case.
+
+2. Why select columns?
+Why do we want to select columns? We might use them in a calculation. For example, this code selects the column "price" and then calls the method "sum" on that column to get the total amount of money spent by our suspects. We might also want to use the data as the input to a function. You might recognize this code from when we learned about functions. It will create a plot of the frequencies of each letter in the ransom note. The data comes from a DataFrame called "ransom" with columns "letter" and "frequency".
+
+3. Columns names are strings
+So how do we select columns? We know that we can view the column names for our data using either dot-head or dot-info. If we examine the credit_records DataFrame, we see that there are 5 columns: suspect, location, date, item, and price. Each of these column names is a string. Recall that a string is just a way of representing text in Python. In this case the strings are all single words, but strings can have spaces or special characters. That means that columns in DataFrames can also have spaces or special characters.
+
+4. Selecting with brackets and string
+We can use these column name strings to select a column. We type the name of the DataFrame, followed by an open square bracket, followed by the column string (in quotation marks), and closed with a second square bracket. If we print the column, we see all values for that particular column.
+
+5. Selecting with a dot
+There's a second way we can select columns from a DataFrame. If the columns string only contains letters, numbers, and underscores, we can use dot notation. For dot notation, we simply type the name of the variable, followed by a dot, followed by the name of the column. In this case, we don't use quotation marks around the column name.
+
+6. Common mistakes in column selection
+Let's go over some common errors you might encounter when selecting columns. Remember that when your column name contains spaces or special characters, you need to use bracket and string notation, and not dot notation to select the column. If you use dot notation, Python gets confused and thinks that you're referring to several different variables.
+
+7. Common mistakes in column selection
+Another common error is forgetting to put quotation marks around the column string when using brackets and string notation. If you forget the quotation marks, then Python thinks that the column name is actually a variable that hasn't been defined yet.
+
+8. Common mistakes in column selection
+Finally, remember that square brackets are not the same at parentheses. If you use parentheses, Python will think that you're using the DataFrame as a function, and will give a "TypeError".
+
+9. Let's practice!
+You've learned how to select columns from a DataFrame and you're ready to deal with any errors you might encounter. Let's practice!
